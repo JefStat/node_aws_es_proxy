@@ -1,0 +1,16 @@
+{
+  "name": "node_es_proxy",
+  "version": "1.0.0",
+  "description": "an aws elasticsearch domain proxy ",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js $AWS_ELASTICSEARCH_DOMAIN"
+  },
+  "author": "",
+  "dependencies": {
+    "aws-sdk": "^2.2.12",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "http-proxy": "^1.12.0"
+  }
+}
